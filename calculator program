@@ -1,0 +1,21 @@
+import java.util.scanner;
+public class main
+{
+public static void main(String[]args)
+{
+scanner.out.println("Enter any two positive integer numbers:");
+//reading data using readline
+int N1=in.nextint();
+int N2=in.nextint();
+int sum,sub,mul;
+float div;
+sum=N1+N2;
+sub=N1-N2;
+div=N1/N2;
+mul=N1*N2;
+System.out.println("\nSum     "+N1+"+"+N2+"="+sum);
+System.out.println("\nSub     "+N1+"-"+N2+"="+sub);
+System.out.println("\nDiv     "+N1+"/"+N2+"="+div);
+System.out.println("\nMul     "+N1+"*"+N2+"="+mul);
+}
+}
